@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "waxyrirh",
+    "password": "R2TZvNDVLroAsj7wGH7cw4z8o_c-VM_E",
+    "database": "waxyrirh",
+    "host": "balarama.db.elephantsql.com",
+    "dialect": "postgres",
+    "ssl":true,
+   "dialectOptions":{
+      "ssl":{
+         "require":true,
+         "rejectUnauthorized": false
+      }
+   }
+  },
+  "test": {
+    "username": "waxyrirh",
+    "password": "R2TZvNDVLroAsj7wGH7cw4z8o_c-VM_E",
+    "database": "waxyrirh",
+    "host": "balarama.db.elephantsql.com",
+    "dialect": "postgres",
+    "ssl": false
+  },
+  "production": {
+    "username": "waxyrirh",
+    "password": "R2TZvNDVLroAsj7wGH7cw4z8o_c-VM_E",
+    "database": "waxyrirh",
+    "host": "balarama.db.elephantsql.com",
+    "dialect": "postgres",
+    "ssl": false
+  }
+}

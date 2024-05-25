@@ -1,0 +1,20 @@
+{
+  "name": "bcg-backend",
+  "version": "1.0.0",
+  "description": "Full Stack Developer- Recruitment assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anurag Kushwaha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "joi": "^17.12.2",
+    "moment-timezone": "^0.5.45",
+    "pg": "^8.11.3",
+    "sequelize": "^6.37.1"
+  }
+}
