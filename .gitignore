@@ -47,3 +47,4 @@ coverage/
 # Debug and test output
 *.out
 *.err
+.vercel

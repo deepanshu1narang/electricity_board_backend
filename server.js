@@ -5,7 +5,7 @@ const app = express();
 const routes = require('./routes');
 const db = require("./sequelize/models");
 try {
-  app.use(cors());
+  app.use(cors({ origin: '*' }));
   app.use(express.json());
   //initialize sequelize
   (async () => {
